@@ -54,7 +54,7 @@ def parse_json(data):
 
 @app.route("/health")
 def health_check():
-    return {status:"OK"}, 200
+    return {"status":"OK"}, 200
     
 @app.route("/count")
 def count_stuff():
